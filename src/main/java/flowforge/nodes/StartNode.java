@@ -8,7 +8,7 @@ import java.awt.*;
 public class StartNode extends Node
 {
 
-    private ProgramPanel programPanel;
+    private final ProgramPanel programPanel;
 
     public StartNode(String title, ProgramPanel programPanel)
     {
