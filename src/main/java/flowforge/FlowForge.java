@@ -86,7 +86,7 @@ public class FlowForge extends JFrame implements Runnable
     {
         var osName = System.getProperty("os.name").toLowerCase();
 
-        System.setProperty("sun.java2d.opengl", osName.startsWith("win") ? "true" : "false");
+        System.setProperty("sun.java2d.opengl", osName.startsWith("win") ? "false" : "true");
         System.setProperty("apple.laf.useScreenMenuBar", "true");
         System.setProperty("apple.awt.application.appearance", "system");
 
